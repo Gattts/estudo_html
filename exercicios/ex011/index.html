@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mídias</title>
+</head>
+<body> 
+  <h1>Imagens Dinâmicas</h1>
+  <p>
+    Tente abrir esse site em diferentes dispositivos 
+    e aumente ou diminua o navegador
+  </p>
+  <picture>
+    <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+    <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+    <img src="imagens/foto-g.png" alt="imagens felixivel">
+  </picture>
+  <H1>Reproduzindo Audio</H1>
+  <p>Vamos aprender a reproduzir áudio em HTML5</p>
+  <audio preload="metadata" controls autoplay loop> 
+    <source src="midia/Breeze - Telecasted.mp3" type="audio/mpeg">
+    <source src="midia/Breeze - Telecasted.ogg" type="audio/ogg">
+    <source src="midia/Breeze - Telecasted.wav" type="audio/wav">
+    <p>Infelizmente seu navegador nao suporta reprodução do áudio. <a href="midia/Breeze - Telecasted.mp3">
+      Clique aqui para baixar o arquivo MP3.
+    </a></p>
+  </audio>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Links</title>
+  <style>
+    
+    /*
+    
+    SELETORES PERSONALIZADOS
+
+    # = id
+    . = class
+    : = pseudo-class
+    :: = pseudo-element
+    > = children
+    
+    */
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+    a {
+      text-decoration: none;
+      color: red;
+    }
+
+    a:visited {
+      color: rebeccapurple;
+    }
+
+    a:hover {
+      color: black;
+      text-decoration: underline;
+    }
+    a:active{
+      color: yellow;
+    }
+    a::after{
+      content: ' [link]';
+      text-decoration: none;
+      color: darkgray;
+      font-weight: normal;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Personalizando Links</h1>
+  <li><a href="https://github.com/Gattts">Repositório GitHub</a></li>
+  <li><a href="https://www.youtube.com/channel/UCET6GNo74gR_NY70kb3NahQ">Canal do Youtube</a></li>
+  <li><a href="https://www.cursoemvideo.com">Site do Curso em Video</a></li>
+</body>
+
+</html>

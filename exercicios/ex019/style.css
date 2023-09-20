@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+/*
+
+HTML id = CSS # (elemento único por página HTML)
+HTML class = CSS . (múltiplos elementos)
+
+*/
+
+body{
+  background-color: #7CE1F5;
+  font-family: sans-serif
+}
+h1{
+  font-family: 'Times New Roman', Times, serif;
+  color:#1B3136;
+}
+h1#principal{
+  text-align: center;
+  background-color:#1B3136;
+  color: white;
+}
+h2{
+  font-family: 'Times New Roman', Times, serif;
+  color:#3C6C75;
+}
+.basico{
+  color: #3C6C75;
+}
+.intermediario{
+  color: rgb(197, 197, 36);
+}
+.avancado{
+  color: rgb(177, 25, 25);
+}
